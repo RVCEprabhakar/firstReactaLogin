@@ -1,0 +1,74 @@
+
+/* Background styling */
+body {
+    margin: 0;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container for the form */
+  .login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields */
+  .input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  .input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input input:focus {
+    border-color: #ff7e5f;
+  }
+  
+  /* Button styling */
+  .submit-btn {
+    padding: 10px;
+    border: none;
+    background-color: #ff7e5f;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #feb47b;
+  }
+  
